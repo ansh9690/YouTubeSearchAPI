@@ -35,21 +35,20 @@
   </nav>
   <div class="container my-3">
     <div class="row">
+      {% if videos %}
       {% for videos in videos %}
-        <div class="col-lg-4 d-flex align-items-stretch my-3">
-          <a href="{{ videos.url}}" class="custom-card">
-          <div class="card-deck">
-            <div class="card">
-              <img class="card-img-top" src="{{ videos.thumbnails}}"alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">{{ videos.title}}</h5>
-                <p class="card-text text-muted">Duration - {{ videos.duration}} min</p>
-              </div>
-            </div>
+      <div class="col-4">
+          <h5 class="card-title">{{ videos.title}}</h5>
+
+          <div class="embed-responsive embed-responsive-21by9">
+            <iframe class="embed-responsive-item" src="//www.youtube.com/embed/{{ videos.id }}" allowfullscreen></iframe>
           </div>
-          </a>
       </div>
       {% endfor %}
+      {% else %}
+      <h1>No videos</h1>
+      {% endif %}
+
     </div>
   </div>
 
