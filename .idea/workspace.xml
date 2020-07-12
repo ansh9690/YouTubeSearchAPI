@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b50efb98-6bf6-4bb8-acd3-dd66afd546ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/YouTubeSearch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/YouTubeSearch.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Search API/YouTubeSearch/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search API/YouTubeSearch/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Search API/search/templates/search/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Search API/search/templates/search/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Search API/search/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search API/search/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

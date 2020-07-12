@@ -101,4 +101,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-YOUTUBE_DATA_API_KEY = 'AIzaSyBnrKSyXlcmko9mKV1LRfAQeS2FGmlsMPc'
+YOUTUBE_DATA_API_KEY = 'API KEY'
