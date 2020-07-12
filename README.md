@@ -1,2 +1,1 @@
-# YouTubeSearchAPI
-User can search videos using api, and also play the videos onsite.
+# Searching YouTube Videos uisng YouTube Data API.
